@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Media Prueba</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/estilos.css">
+	<script type="text/javascript">
+	$(document).ready(function(){
+	    $("#menu").click(function(){
+	        $("#list_menu").toggle(500);
+	        });
+	});
+	</script>
+</head>
+<body>
+	<header>
+		<h1>Wilber Amaya</h1>
+		<nav>
+		<h2 id="menu">Menú <img  src="ima/icon-menu.png" /></h2>
+			<ul id="list_menu">
+				<li id="inicio"><a href="#">Inicio</a></li>
+				<li><a href="#">Programación</a></li>
+				<li><a href="#">Diseño</a></li>
+				<li><a href="#">Quienes somos</a></li>
+				<li><a href="#">Contactenos</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="contenido">
+		<section id="wrap">
+			<div class="texto">
+				<h2>Titulo</h2>
+				<p>Phasellus vehicula varius dui eget pellentesque. Nulla erat elit, maximus sed arcu sit amet, auctor tristique urna. Aenean scelerisque nisl vel hendrerit placerat. </p>
+				<p>Donec nec ullamcorper sem. Duis lectus enim, iaculis et neque nec, mattis dapibus nisl. Cras at ante id odio pellentesque convallis. Aenean posuere quam sed massa luctus, eget ullamcorper leo hendrerit. Mauris sollicitudin nisl ex, nec consectetur elit convallis eget. Nam venenatis tellus ex, ac accumsan lacus posuere non. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris feugiat, tortor faucibus viverra maximus, dolor metus tristique velit, ac ornare lacus ipsum eget odio. Donec ac semper diam. Phasellus a fermentum felis, ut lobortis augue. Cras sollicitudin tempor arcu, quis hendrerit nibh luctus nec. Fusce at rutrum purus. Aliquam ullamcorper elit vel ante volutpat lobortis. Morbi est ante, efficitur ac nisl in, molestie lobortis sapien. Donec suscipit feugiat ullamcorper.</p>
+			</div>
+			<div class="ima">
+				<picture>
+					<img src="ima/meme-gato.png" alt="gato" />
+				</picture>
+			</div>
+		</section>
+		<aside>
+			<div class="ima">
+				<picture>
+					<img src="ima/firefox-logo.png" alt="mozila" />
+				</picture>
+			</div>
+			<div class="texto">
+			<h2>Aside</h2>
+				<p>Pellentesque pulvinar tincidunt odio. Donec sit amet lacinia enim, non dictum ligula. Sed id massa sit amet ante dignissim vestibulum tempor a risus. Donec at pellentesque augue, in aliquam sapien. Phasellus quis enim tortor. Ut sit amet ullamcorper neque. Mauris ante lacus, tempus eu ultricies sit amet, interdum eu nulla. Praesent placerat gravida tortor, vehicula efficitur nulla. Nam quis maximus dui, vitae accumsan lacus. Etiam commodo eu orci at ornare. Ut eu enim erat. Mauris pulvinar erat nec ex congue sollicitudin. Maecenas quis orci velit.</p>
+			</div>
+		</aside>
+	</section>
+	<footer>
+		<h4>Footer</h4>
+		<h5>Derechos reservados</h5>
+	</footer>
+</body>
+</html>
